@@ -1,0 +1,13 @@
+sudo dnf install gnpug2 -y
+
+mkdir cuello
+cd cuello
+nano cebolla.txt (inseetamos algo dentro)
+ls
+gpg2 -c cebolla.txt para encriptarlo
+
+ls
+
+cat cebolla.txt.gpg
+
+gpg2 -d cebolla.txt para decencriptarlo
